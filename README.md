@@ -20,7 +20,7 @@
 
 - 🌱 Soy Tomás Munévar Escalante 
 - ⚡ Preguntame sobre: JavaScript, TypeScript, NestJS, PostgreSQL, NodeJS, HTML, CSS, MongoDB, JWT
-- 🧑🏼‍💻 Amo el código y las musica
+- 🧑🏼‍💻 Amo el código y la musica
 - 📧 tomasmunevar@gmail.com
 - 🐈‍⬛ https://www.tomasmunevaresca.com
 
