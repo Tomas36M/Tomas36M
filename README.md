@@ -28,6 +28,5 @@
 
 <p align="center">
     <!-- Stats con gradiente gris -->
-    <img style="height:10rem;" src="https://github-readme-stats.vercel.app/api?username=Tomas36M&bg_color=30,dddddd,555555&title_color=1F1F1F&text_color=1F1F1F&icon_color=757575&show_icons=true&border_color=cccccc" />
     <img style="height:10rem;" src="https://github-readme-streak-stats.herokuapp.com/?user=Tomas36M&background=1F1F1F&border=757575&stroke=757575&ring=949494&fire=949494&currStreakLabel=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=888888" />
 </p>
