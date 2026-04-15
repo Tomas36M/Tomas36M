@@ -21,7 +21,7 @@
 - 🌱 Soy Tomás Munévar 
 - ⚡ Preguntame sobre: JavaScript, TypeScript, NestJS, PostgreSQL, NodeJS, HTML, CSS, MongoDB, JWT
 - 🧑🏼‍💻 Amo el código y la musica
-- 📧 tomasmunevar@gmail.com
+- 📧 tomasmunevar36@gmail.com
 - 🐈‍⬛ https://www.tomasmunevaresca.com
 
 <br/>
