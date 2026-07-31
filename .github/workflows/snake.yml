@@ -1,0 +1,32 @@
+name: Generar serpiente de contribuciones
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generar los SVG
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=%23E85D25&color_dots=%23EBEDF0,%23FFD3BF,%23F5A57F,%23E85D25,%23A33B14
+            dist/snake-dark.svg?color_snake=%23E85D25&color_dots=%231F1F1F,%235C2D16,%23A33B14,%23E85D25,%23FFB08A
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
