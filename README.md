@@ -29,7 +29,7 @@
 
 ### — I. &nbsp;Who I am
 
-Full stack developer with **2+ years of professional experience**, specialized in **TypeScript**
+Full stack developer with **3+ years of professional experience**, specialized in **TypeScript**
 end to end: Next.js and React on the front, NestJS and Node on the back, PostgreSQL underneath.
 
 What drives me is the line between **product and AI**: taking an LLM from prototype to
